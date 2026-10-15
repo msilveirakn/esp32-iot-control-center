@@ -1,0 +1,17 @@
+
+# Arquivos temporários e do sistema
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*~
+
+# Artefatos de compilação
+build/
+*.elf
+*.bin
+*.hex
+*.map
+
+# Logs
+*.log
