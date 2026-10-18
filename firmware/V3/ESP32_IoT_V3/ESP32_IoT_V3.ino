@@ -234,7 +234,7 @@ void appendJsonFloat(String& json, const char* key, float value, uint8_t decimal
   if (isnan(value)) {
     json += "null";
   } else {
-    json += String(value, decimals);
+    json += String(value, static_cast<unsigned int>(decimals));
   }
 }
 
